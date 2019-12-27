@@ -10,7 +10,7 @@ description: |
 owner: Mouhcine El Amine # or company name
 first_published: 2019 # if migrating another site, the year of your first publish
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "https://antjeandmouhcine.wedding" # the base hostname & protocol for your site
 
 
 
