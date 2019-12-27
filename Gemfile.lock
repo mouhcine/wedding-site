@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/kurtsson/jekyll-multiple-languages-plugin
+  revision: 9950a00e7b34d60ea39b30c615d031abdffe7a33
+  branch: update-depencency-requirements
+  specs:
+    jekyll-multiple-languages-plugin (1.6.0)
+      jekyll (>= 2.0, < 5.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -60,6 +68,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
+  jekyll-multiple-languages-plugin!
 
 BUNDLED WITH
    2.1.2
