@@ -3,18 +3,19 @@
 
 # Site settings
 title: "Antje & Mouhcine"
-description: |
-    Save the date
-
-    June 20th, 2020
 owner: Mouhcine El Amine # or company name
 first_published: 2019 # if migrating another site, the year of your first publish
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://antjeandmouhcine.wedding" # the base hostname & protocol for your site
 
+languages: ["en", "de", "it"]
+exclude_from_localizations: ["fonts", "images", "css", "js", "CNAME"]
 
 
 # Build settings
 markdown: kramdown
 #sass:
 #  style: compressed
+
+plugins:
+  - jekyll-multiple-languages-plugin
