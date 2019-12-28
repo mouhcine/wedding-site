@@ -1,0 +1,12 @@
+- id: en
+  label: English
+  icon: "🇺🇸"
+  url: "/"
+- id: de
+  label: Deutsch
+  icon: "🇩🇪"
+  url: "/de"
+- id: it
+  label: Italiano
+  icon: "🇮🇹"
+  url: "/it"

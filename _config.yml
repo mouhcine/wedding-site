@@ -10,11 +10,6 @@ url: "https://antjeandmouhcine.wedding" # the base hostname & protocol for your 
 
 languages: ["en", "de", "it"]
 exclude_from_localizations: ["fonts", "images", "css", "js", "CNAME"]
-languageNames:
-  en: English
-  de: Deutsch
-  it: Italiano
-
 
 
 # Build settings
