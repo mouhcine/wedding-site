@@ -48,13 +48,14 @@
 // Palette.
 	$palette: (
 		bg:					#2e3842,
-		fg:					#fff,
-		fg-bold:			#fff,
+		fg:					#1F7D81,
+		fg-bold:			#1F7D81,
 		fg-light:			rgba(255,255,255,0.5),
 		border:				#fff,
 		border-bg:			rgba(144,144,144,0.25),
 		border2:			#fff,
-		border2-bg:			rgba(144,144,144,0.5),
+        border2-bg:			rgba(144,144,144,0.5),
+        fg-gold:            #B7A860,
 
 		accent1: (
 			bg:				$blue,

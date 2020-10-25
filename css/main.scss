@@ -92,7 +92,8 @@ $baseurl: '{{ site.baseurl_root }}/images';
 	}
 
 	p {
-		margin: 0 0 _size(element-margin) 0;
+        margin: 0 auto _size(element-margin) auto;
+        max-width: 390px;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -100,7 +101,8 @@ $baseurl: '{{ site.baseurl_root }}/images';
 		font-weight: _font(weight-extrabold);
 		letter-spacing: _size(letter-spacing-alt);
 		line-height: 1em;
-		margin: 0 0 (_size(element-margin) * 0.5) 0;
+        margin: 0 auto (_size(element-margin) * 0.5) auto;
+        max-width: 390px;
 		text-transform: uppercase;
 
 		a {
@@ -1514,7 +1516,7 @@ $baseurl: '{{ site.baseurl_root }}/images';
 			&:before, &:after {
 				@include vendor('transition', 'width 0.85s ease');
 				@include vendor('transition-delay', '0.25s');
-				background: _palette(fg-bold);
+				background: _palette(fg-gold);
 				content: '';
 				display: block;
 				height: 2px;
@@ -1687,8 +1689,8 @@ $baseurl: '{{ site.baseurl_root }}/images';
 	#main {
 		> header {
 			@include padding(12em, 0);
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/banner.jpg")'));
-			background-attachment: fixed;
+            background-image: url("#{$baseurl}/banner.jpg");
+            background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
 			background-size: cover;
@@ -1812,18 +1814,18 @@ $baseurl: '{{ site.baseurl_root }}/images';
 
 	body.landing {
 		#page-wrapper {
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/banner.jpg")'));
-			background-attachment: fixed;
+            background-image: url("#{$baseurl}/banner.jpg");
+            background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
-			background-size: cover;
-      padding-top: 0;
+			background-size: contain;
+            padding-top: 0;
 
-      min-height: 100%;
-      min-width: 100%;
+            min-height: 100%;
+            min-width: 100%;
 
-      width: 100vw;
-      height: 100vh;
+            width: 100vw;
+            height: 100vh;
 		}
 
 		#footer {
@@ -1839,15 +1841,15 @@ $baseurl: '{{ site.baseurl_root }}/images';
 
 			#banner,
 			.wrapper.style4 {
-				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/banner.jpg")'));
-				background-position: center center;
+                background-image: url("#{$baseurl}/banner.jpg");
+                background-position: center center;
 				background-repeat: no-repeat;
-        background-size: cover;
+                background-size: cover;
 
-        min-height: 100%;
-        min-width: 100%;
-        width: 100vw;
-        height: 100vh;
+                min-height: 100%;
+                min-width: 100%;
+                width: 100vw;
+                height: 100vh;
 			}
 
 			#footer {
